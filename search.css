@@ -48,7 +48,9 @@
   display:inline-block;
   list-style-type:none;
 }
+
 /* CLASSES */
+
 body{
   background-color:yellow;
 }
@@ -58,10 +60,20 @@ body *{
   background-color: red;
   font-size: 16px;
 }
-
-
-  
+li {
+  display:inline-block;
+  font-size:14px;
 }
+.ul-space >li:not(:last-child){
+  margin:0 10px 0 0;
+}
+
+.icon-google{
+  display:inline;
+  max-width:16px;
+    min-width:16px;
+}
+  
 .generic-box-set{
   font-family:arial, sans-serif;
   background-color: yellow;
