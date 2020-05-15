@@ -1,0 +1,99 @@
+
+
+#google-homepage-clickable{
+
+}
+#google-searchbar{
+
+}
+#google-connect{
+
+}
+#google-top-nav-bar{
+
+}
+
+#first-result-box{
+  
+}
+
+#people-ask-box{
+
+}
+#video-results{
+  
+}
+#related-search-feedback{
+  
+}
+
+#related-search{
+
+}
+
+#page-count-box{
+
+}
+
+#nav-bar-bottom-1{
+
+}
+#nav-bar-bottom-2{
+    
+}
+#bar-nav{
+  
+}
+#list-nav >*{
+  display:inline-block;
+  list-style-type:none;
+}
+/* CLASSES */
+body{
+  background-color:yellow;
+}
+body *{
+
+  font-family:arial, sans-serif;
+  background-color: red;
+  font-size: 16px;
+}
+
+
+  
+}
+.generic-box-set{
+  font-family:arial, sans-serif;
+  background-color: yellow;
+
+}
+
+.generic-inbox-text{
+  margin:0 0 1em 0;
+  background-color:white;
+}
+.generic-web-adress{
+  
+}
+
+a{
+font-size:1.3em;
+}
+.big-box{
+ border: 1px solid lightgrey; 
+ border-radius: 10px ;
+ padding:1em;
+}
+.nav-bar-left{
+float:left;
+}
+
+.nav-bar-right{
+float:right;
+background-color:;
+}
+
+.nav-bar-text {
+
+}
+
