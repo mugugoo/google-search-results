@@ -18,7 +18,16 @@
 }
 
 #people-ask-box{
-
+display:grid;
+padding:0em;
+}
+/* (:not:first-child, :not:last-child) */
+#people-ask-box h1,  #people-ask-box div{
+ border: 1px solid lightgrey; 
+ 
+}
+#people-ask-box *{
+padding:1em;
 }
 #video-results{
   
@@ -44,29 +53,35 @@
 #bar-nav{
   
 }
-#list-nav >*{
-  display:inline-block;
-  list-style-type:none;
+#list-nav > *{
+  display: inline-block;
+  list-style-type: none;
 }
 
 /* CLASSES */
 
 body{
-  background-color:yellow;
+  background-color: yellow;
 }
 body *{
 
-  font-family:arial, sans-serif;
-  background-color: red;
+  font-family: arial, sans-serif;
+  background-color: ;
   font-size: 16px;
 }
 li {
-  display:inline-block;
-  font-size:14px;
+  display: inline-block;
+  font-size: 14px;
 }
-.ul-space >li:not(:last-child){
-  margin:0 10px 0 0;
+a{
+font-size: 1.3em;
 }
+
+
+.ul-space > li:not(:last-child){
+  margin: 0 10px 0 0;
+}
+
 
 .icon-google{
   display:inline;
@@ -88,13 +103,16 @@ li {
   
 }
 
-a{
-font-size:1.3em;
-}
+
 .big-box{
  border: 1px solid lightgrey; 
  border-radius: 10px ;
  padding:1em;
+}
+
+.big-box * {
+  margin: 0;
+  background-color: ;
 }
 .nav-bar-left{
 float:left;
