@@ -94,18 +94,23 @@ font-size: 1.3em;
 .generic-box-set{
   font-family:arial, sans-serif;
   background-color: yellow;
-  margin:0 0 0px;
 
+} 
+.generic-box-set > *{
+  margin: 0 0 8px 0;
 }
 
-.generic-inbox-text{
-  margin:0 0 1em 0;
+
+.generic-inbox-text {
+  font-size:1.1em;
+  padding:0 0 1em 0;
   background-color:white;
-}
-.generic-web-adress{
-  
+  margin: 0 0 8px 0;
 }
 
+.generic-web-adress{
+  margin:0 0 5px;
+}
 
 .big-box{
  border: 1px solid lightgrey; 
@@ -114,8 +119,21 @@ font-size: 1.3em;
 }
 
 .big-box * {
-  margin: 0;
+
   background-color: ;
+}
+.img-box{
+  
+}
+.img-box img{
+  
+}
+
+.img-box-line{
+  
+}
+.bottom-bar{
+  margin: 0;
 }
 .nav-bar-left{
 float:left;
@@ -131,5 +149,5 @@ background-color:;
 }
 
 .nav-bar-space{
-  max-height:40px;
+  max-height:30px;
 }
