@@ -92,6 +92,7 @@ font-size: 1.3em;
 }
   
 .generic-box-set{
+  display:block;
   font-family:arial, sans-serif;
   background-color: yellow;
 
@@ -102,7 +103,7 @@ font-size: 1.3em;
 
 
 .generic-inbox-text {
-  font-size:1.1em;
+    font-size:1.1em;
   padding:0 0 1em 0;
   background-color:white;
   margin: 0 0 8px 0;
@@ -123,15 +124,36 @@ font-size: 1.3em;
   background-color: ;
 }
 .img-box{
-  
+  display:inline-block;
+
+  background-color:blue;
 }
 .img-box img{
-  
+  max-width:80%;
 }
 
 .img-box-line{
   
 }
+.img-square{
+vertical-align:top;
+display:inline-block;
+width:13%; 
+background-color:green;
+
+}
+.nav-bar{
+display:inline-block;
+width:100%; 
+background-color:red;
+margin:0;
+padding:0;
+
+}
+.img-square > img{
+
+}
+
 .bottom-bar{
   margin: 0;
 }
@@ -141,7 +163,6 @@ float:left;
 
 .nav-bar-right{
 float:right;
-background-color:;
 }
 
 .nav-bar-text {
