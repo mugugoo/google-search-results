@@ -59,7 +59,9 @@ padding:1em;
   list-style-type: none;
 }
 
-/* CLASSES */
+/* $CLASSES */
+
+/* $basic */
 body div{
   margin: 0 0 40px;
 }
@@ -80,6 +82,12 @@ a{
 font-size: 1.3em;
 }
 
+h1 {
+  margin:0;
+  font-size:20px;
+  font-weight:lighter;
+}
+/*$general */
 .ul-space > li:not(:last-child){
   margin: 0 10px 0 0;
 }
@@ -124,36 +132,83 @@ font-size: 1.3em;
   background-color: ;
 }
 .img-box{
-  display:inline-block;
+  font-size:8px;
+  display:block;
 
-  background-color:blue;
+  background-color:;
 }
+
 .img-box img{
-  max-width:80%;
+  display:block;
+  vertical-align:top;
+  /* chose 10 em cause of low res images */
+  max-width:6em;
 }
-
+.img-box div{
+  font-size:14px;
+  font-weight:lighter;
+}
 .img-box-line{
   
 }
 .img-square{
+text-align:center;
 vertical-align:top;
 display:inline-block;
-width:13%; 
-background-color:green;
+/* 100/7elements=13 */
+max-width:13%; 
+background-color:;
+margin-right:8px;
 
 }
+.img-square *{
+  width:100%;
+}
+
+
+
+
+.img-square > img{
+
+}
+.related-box {
+  display:block;
+  width:100%;
+}
+
+.related-box h1{
+  margin-bottom:1em;
+}
+.related-sub-box div{
+display:inline-block;
+    margin-right:0px;
+    width:35%;
+}
+.related-sub-box *{
+display:block;
+width:100%;
+    margin: 0 0 1em 0;
+    font-size:15px;
+    font-weight:bold;
+    background-color:green;
+}
+.bar-page-google{
+ justify-content:center;
+ margin:0 15% 0 0;
+ background-color:blue;
+}
+.page-icon .img-square{
+max-width:4%;
+}
+/* $generic */ 
 .nav-bar{
 display:inline-block;
 width:100%; 
-background-color:red;
+background-color:;
 margin:0;
 padding:0;
 
 }
-.img-square > img{
-
-}
-
 .bottom-bar{
   margin: 0;
 }
