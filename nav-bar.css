@@ -1,0 +1,56 @@
+
+img {
+    padding: 20px 5px 20px 15px;
+      display:inline-block;
+    vertical-align:middle;
+    max-height:55px;
+  background-color:blue;
+    display:inline;
+  }
+  body{
+  }
+  form{
+    height:100%;
+    width:100%;
+    display:inline;
+    background-color:red;
+  }
+  .buttons{
+    display:inline;
+  }
+  
+  
+  
+  span  {
+    vertical-align:middle;
+  }
+  
+  input{
+      display:inline-block;
+    vertical-align:middle;
+  padding-top:px;
+    width:70%;
+  }
+  div{
+    display:inline-block;
+    vertical-align:middle;
+    background-color:pink;
+    width:100%;
+  }
+  
+  .search-bar{
+      display:inline-block;
+     height:100%;
+     min-height:55px;
+    width:50%;
+    margin: 0px;
+    justify-content:middle;
+    text-align:center;
+    border:2px solid lightgrey;
+  border-radius: 2% / 50%;
+   background-color:red;
+  }
+  
+  .buttons img{
+  width:2%;
+  }

@@ -1,0 +1,42 @@
+header {
+  display:block;
+  background-color:green; 
+}
+
+
+header div *{
+ display:inline-block;
+vertical-align:middle;
+
+}
+
+.search-bar-div{
+ margin:0 30% 0 0;
+  width:auto;
+vertical-align:center;
+ background-color:red;
+}
+form {
+ float:left;
+ width:80%;
+}
+img {
+ display:inline;
+ padding:auto;
+ vertical-align:;
+background-color:blue;
+}
+.search-bar{
+ width:50%;
+ margin: 0 40px;
+ justify-content:center;
+ text-align:center;
+ border:10px solid lightgrey;
+border-radius: 2% / 50%;
+background-color:red;
+}
+
+input {
+width:100%;
+border:none;
+}

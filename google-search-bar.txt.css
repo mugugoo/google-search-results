@@ -1,0 +1,45 @@
+<head link rel="stylesheet"  href="/home/tiduda/the_odin_project/google-search/google-search-results/google-search-bar.css"
+
+header {
+    background-color:green; 
+     background-color:green;
+  }
+ 
+ 
+ header *{
+ vertical-align:middle;
+   display:inline-block;
+ 
+ }
+ 
+ .search-bar-div{
+   position: fixed;
+ vertical-align:center;
+   background-color:red;
+ }
+ form {
+ 
+ }
+ img {
+   padding:auto;
+   vertical-align:;
+ background-color:blue;
+ }
+ .search-bar{
+   width:700px;
+   margin: 0 40px;
+   justify-content:center;
+   text-align:center;
+   border:10px solid lightgrey;
+ border-radius: 2% / 50%;
+  background-color:red;
+ }
+ form {
+   float:left;
+   background-color:red;
+ }
+ input {
+ border:none;
+   width:auto;
+ }
+ 

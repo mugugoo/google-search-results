@@ -62,7 +62,7 @@ padding:1em;
 /* $CLASSES */
 
 /* $basic */
-body div{
+main  div {
   margin: 0 0 40px;
 }
 main{
@@ -81,11 +81,17 @@ li {
 a{
 font-size: 1.3em;
 }
-
+img {
+  display:inline-block;
+  background:blue;
+}
 h1 {
   margin:0;
   font-size:20px;
   font-weight:lighter;
+}
+header div{
+  display:inline-block;
 }
 /*$general */
 .ul-space > li:not(:last-child){
@@ -119,6 +125,24 @@ h1 {
 
 .generic-web-adress{
   margin:0 0 5px;
+}
+.search-bar-div{
+  position: fixed;
+vertical-align:middle;
+  width:100%;
+  background-color:red;
+}
+
+.search-bar{
+  padding:0 10%;
+  text-align:center;
+  border:1px solid lightgrey;
+border-radius: 2% / 50%;
+ background-color:;
+}
+
+input[type="text"] {
+  border:none;
 }
 
 .big-box{
@@ -162,7 +186,8 @@ margin-right:8px;
 
 }
 .img-square *{
-  width:100%;
+  background-color:green;
+  max-width:100%;
 }
 
 
@@ -193,12 +218,32 @@ width:100%;
     background-color:green;
 }
 .bar-page-google{
- justify-content:center;
- margin:0 15% 0 0;
+ 
+  display:inline-block;
+   justify-content:center;
+ padding: 0 15% 0 15%;
  background-color:blue;
+}
+
+.page-icon {
+  height:25%;
+  display:inline-block;
+background-color:pink;
 }
 .page-icon .img-square{
 max-width:4%;
+background-color:pink;
+}
+
+.page-icon .img-square img{
+  min-width:100%;
+display:block;
+vertical-align:top;
+background-color:red;
+
+}
+.img-square.google-bar-next{
+  margin:0;
 }
 /* $generic */ 
 .nav-bar{
