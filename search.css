@@ -62,10 +62,43 @@ padding:1em;
 /* $CLASSES */
 
 /* $basic */
-main  div {
-  margin: 0 0 40px;
+
+form{
+  min-height:40px;
+  max-height:50px;
+ margin: 0px;
+ justify-content:middle;
+ text-align:center;
+ border:2px solid lightgrey;
+border-radius: 5% / 50%;
+background-color:red;
+ height:100%;
+ width:100%;
+ background-color:;
 }
+form:hover {
+   box-shadow: 0px 7px 10px  #666666;
+}
+span  {
+ vertical-align:middle;
+}
+
+input{
+ display:inline;
+align-items:center;
+    min-height:10px;
+  max-height:30px;
+
+ font-size:20px;
+margin-top: 5px;
+width:70%;
+float:left;
+margin-left:3%;
+}
+
 main{
+  padding-left:10%;
+  padding-right:50%;
   background-color: yellow;
 }
 main *{
@@ -74,6 +107,11 @@ main *{
   background-color: ;
   font-size: 16px;
 }
+main > div {
+  margin: 0 0 50px;
+  line-height:130%;
+}
+
 li {
   display: inline-block;
   font-size: 14px;
@@ -90,10 +128,124 @@ h1 {
   font-size:20px;
   font-weight:lighter;
 }
-header div{
+header  div{
   display:inline-block;
+  vertical-align:middle;
+  background-color:pink;
+  width:100%;
+
+}
+
+header {
+  border-bottom:1px solid grey;
+
 }
 /*$general */
+
+    .google-img {
+      padding: 20px 5px 20px 15px;
+        display:inline-block;
+      vertical-align:middle;
+      max-height:55px;
+      width:125px;
+    background-color:blue;
+      display:inline;
+    }
+  
+   
+    
+    .search-bar{
+        display:inline-block;
+       height:100%;
+       min-height:30px;
+       max-height:45px;
+      width:65%;
+      margin-left:25px;
+      justify-content:middle;
+      text-align:center;
+    
+    }
+    .buttons{
+      display:inline-block;
+      justify-content:middle;
+        vertical-align:middle;
+      background-color:blue;
+    
+      width:8%;
+     margin-top: 10px;
+    }
+    
+    .buttons img{
+      height:25px;
+      float:right;
+      width:25px;
+      
+    }
+    .nav{
+      
+      display:inline-block;
+      width:60%;
+      background-color:green;
+    }
+    
+    .nav-right button{
+      margin-bottom:10px;
+      color:white;
+      background-color:hsl(226, 100%, 61% );
+      height:50px;
+      width:88px;
+      border: 1px solid  hsl(226, 100%, 61% );
+      border-radius:8%;
+    }
+     .nav-right button:hover{
+      background-color:hsl(226, 100%, 65% );
+      border: 1px solid  hsl(226, 100%, 65% );
+    }
+    .nav-right-img{
+      position:relative;
+      top:8px;
+      margin-right:8px;
+     margin-top:20px;
+    }
+    .sub-nav-bar{
+      display:inline-block;
+      padding-left:170px;
+      margin-bottom:3px;
+    }
+      .sub-nav-bar *{
+      display:inline;
+    }
+        .sub-nav-bar img{
+          display:inline;
+    float:left;
+     max-width:20px;
+    }
+    .icon-n-button{
+      display:inline-block;
+      background-color:white;
+      margin-left:7px;
+      font-size:15px;
+      width:auto;
+      min-width:4%;
+    } 
+
+    .highlight{
+      box-shadow: 0px 5px 0 #3384c5c4
+
+    }
+    .icon-n-button *{
+    text-align:middle;
+    }
+    .icon-n-button-right {
+      margin-left:20px;
+      font-size:15px;
+        
+      width:5.5%;
+    }
+     .icon-n-button-right *{
+       margin-left:15px;
+        background-color:white;
+     }
 .ul-space > li:not(:last-child){
   margin: 0 10px 0 0;
 }
@@ -126,24 +278,10 @@ header div{
 .generic-web-adress{
   margin:0 0 5px;
 }
-.search-bar-div{
-  position: fixed;
-vertical-align:middle;
-  width:100%;
-  background-color:red;
-}
 
-.search-bar{
-  padding:0 10%;
-  text-align:center;
-  border:1px solid lightgrey;
-border-radius: 2% / 50%;
- background-color:;
-}
 
-input[type="text"] {
-  border:none;
-}
+
+
 
 .big-box{
  border: 1px solid lightgrey; 
@@ -218,17 +356,19 @@ width:100%;
     background-color:green;
 }
 .bar-page-google{
- 
+ margin:0;
   display:inline-block;
    justify-content:center;
  padding: 0 15% 0 15%;
  background-color:blue;
+
 }
 
 .page-icon {
-  height:25%;
   display:inline-block;
-background-color:pink;
+background-color:;
+  margin:0px;
+
 }
 .page-icon .img-square{
 max-width:4%;
@@ -255,6 +395,7 @@ padding:0;
 
 }
 .bottom-bar{
+  line-height:normal;
   margin: 0;
 }
 .nav-bar-left{
@@ -271,4 +412,22 @@ float:right;
 
 .nav-bar-space{
   max-height:30px;
+
+
 }
+    
+.nav-right {
+  margin-top:10px;
+  display:inline-block;
+  background-color:pink;
+  float:right
+}
+
+.nav-right img{
+width:25px;
+}
+
+
+/* $extra changes*/
+
+ul {margin-top:2px}
