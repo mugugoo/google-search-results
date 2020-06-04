@@ -54,6 +54,8 @@ padding:1em;
 #bar-nav{
   
 }
+
+
 #list-nav > *{
   display: inline-block;
   list-style-type: none;
@@ -96,7 +98,7 @@ float:left;
 margin-left:3%;
 }
 
-main{
+main, footer{
   padding-left:10%;
   padding-right:50%;
   background-color: yellow;
@@ -107,10 +109,13 @@ main *{
   background-color: ;
   font-size: 16px;
 }
+/* affacets all div except first divs and google123*/
+main * :not(:last-child){margin:8px 0 7px 0px;}
 main > div {
-  margin: 0 0 50px;
+  margin: 0 0 40px;
   line-height:130%;
 }
+
 
 li {
   display: inline-block;
@@ -119,6 +124,7 @@ li {
 a{
 font-size: 1.3em;
 }
+
 img {
   display:inline-block;
   background:blue;
@@ -140,6 +146,19 @@ header {
   border-bottom:1px solid grey;
 
 }
+
+footer {
+  font-size:14px;
+  background-color:#eee
+}
+footer span {
+  margin-right:10px;
+}
+footer div {
+  padding: 6px;
+}
+
+
 /*$general */
 
     .google-img {
@@ -411,7 +430,14 @@ float:right;
 }
 
 .nav-bar-space{
-  max-height:30px;
+  max-height:25px;
+  margin-top: -5px;
+
+
+}
+nav-bar-space *{
+  max-height:25px;
+  margin-top: 0px;
 
 
 }
@@ -427,7 +453,14 @@ float:right;
 width:25px;
 }
 
-
+.nav-right *{
+margin-right:20px;
+}
 /* $extra changes*/
 
 ul {margin-top:2px}
+
+#footer2 span{
+  background-color;
+margin-right: 30px;
+}
